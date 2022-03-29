@@ -15,11 +15,11 @@ D:/MyUnityStudy/Shader Study
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62284
+57921
 Successfully changed project path to: D:/MyUnityStudy/Shader Study
 D:/MyUnityStudy/Shader Study
 Using Asset Import Pipeline V2.
-AS: AutoStreaming module initializing.Refreshing native plugins compatible for Editor in 32.35 ms, found 2 plugins.
+AS: AutoStreaming module initializing.Refreshing native plugins compatible for Editor in 38.30 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.26f1c1 (cf0e0a163043)
 [Subsystems] Discovering subsystems at path D:/UnityEngine/2020.3.26f1c1/Editor/Data/Resources/UnitySubsystems
@@ -31,199 +31,199 @@ Direct3D:
     Vendor:   
     VRAM:     8081 MB
     Driver:   27.20.100.9510
-Initialize mono
+CreateFile() Error: 5
+CreateFile() Error: 2
+CreateFile() Error: 2
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 2
+CreateFile() Error: 2
+CreateFile() Error: 2
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreaInitialize mono
 Mono path[0] = 'D:/UnityEngine/2020.3.26f1c1/Editor/Data/Managed'
 Mono path[1] = 'D:/UnityEngine/2020.3.26f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/UnityEngine/2020.3.26f1c1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56976
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56144
 Begin MonoManager ReloadAssembly
-CreateFile() Error: 5
-CreateFile() Error: 2
-CreateFile() Error: 2
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 2
-CreateFile() Error: 2
-CreateFile() Error: 2
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
+teFile() Error: 5
 CreateFile() Error: 5
 CreateFile() Error: 5
 CreateFile() Error: 5
@@ -597,41 +597,41 @@ CreateFile() Error: 5
 CreateFile() Error: 5
 CreateFile()Registering precompiled unity dll's ...
 Register platform support module: D:/UnityEngine/2020.3.26f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002474 seconds.
+Registered in 0.002583 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 21.87 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 30.09 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.579 seconds
+- Completed reload, in  0.624 seconds
 Domain Reload Profiling:
-	ReloadAssembly (580ms)
-		BeginReloadAssembly (168ms)
+	ReloadAssembly (624ms)
+		BeginReloadAssembly (107ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (346ms)
-			LoadAssemblies (167ms)
+		EndReloadAssembly (449ms)
+			LoadAssemblies (107ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (131ms)
+			SetupTypeCache (168ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (115ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (175ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (22ms)
-				BeforeProcessingInitializeOnLoad (12ms)
-				ProcessInitializeOnLoadAttributes (56ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
+				RefreshPlugins (30ms)
+				BeforeProcessingInitializeOnLoad (20ms)
+				ProcessInitializeOnLoadAttributes (97ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008599 seconds.
+Registered in 0.008292 seconds.
  Error: 5
 CreateFile() Error: 5
 CreateFile() Error: 5
@@ -2122,7 +2122,6 @@ CreateFile() Error: 5
 CreateFile() Error: 5
 CreateFile() Error: 5
 CreateFile() Error: 5
-Begin MonoManager ReloadAssembly
 CreateFile() Error: 5
 CreateFile() Error: 5
 CreateFile() Error: 5
@@ -2309,7 +2308,8 @@ CreateFile() Error: 5
 CreateFile() Error: 5
 CreateFile() Error: 5
 CreateFile() Error: 5
-CreateFile() Error: 5
+CreaBegin MonoManager ReloadAssembly
+teFile() Error: 5
 CreateFile() Error: 5
 CreateFile() Error: 5
 CreateFile() Error: 5
@@ -2868,48 +2868,48 @@ CreateFile() Error: 5
 CreateFile() Error: 5
 CreateFile() Error: 5
 CreateFile() ErrNative extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.873 seconds
+- Completed reload, in  1.071 seconds
 Domain Reload Profiling:
-	ReloadAssembly (875ms)
-		BeginReloadAssembly (181ms)
+	ReloadAssembly (1072ms)
+		BeginReloadAssembly (206ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (14ms)
-		EndReloadAssembly (646ms)
-			LoadAssemblies (167ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (817ms)
+			LoadAssemblies (201ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (238ms)
+			SetupTypeCache (242ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (225ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (335ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (54ms)
-				ProcessInitializeOnLoadAttributes (158ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (1ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (250ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1512 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 70.5 MB.
-System memory in use after: 70.6 MB.
+Unloading 1556 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.4 MB.
+System memory in use after: 80.4 MB.
 
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 1946.
-Total: 3.475400 ms (FindLiveObjects: 0.166700 ms CreateObjectMapping: 0.062000 ms MarkObjects: 3.125400 ms  DeleteObjects: 0.119600 ms)
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 1996.
+Total: 5.908600 ms (FindLiveObjects: 0.328000 ms CreateObjectMapping: 0.367900 ms MarkObjects: 5.053100 ms  DeleteObjects: 0.156300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -2923,528 +2923,283 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Shader/Chapter 6/6-5-1.shader
-  artifactKey: Guid(93888c29d922a3a4d8d479528856e89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/Chapter 6/6-5-1.shader using Guid(93888c29d922a3a4d8d479528856e89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db5916fcd7deace6f545596f3d3e1005') in 0.035150 seconds 
-  Import took 0.037964 seconds .
+  path: Assets/Model/TeddyBear.fbx
+  artifactKey: Guid(f15182eb476076f4a862b1a8d8d26a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/TeddyBear.fbx using Guid(f15182eb476076f4a862b1a8d8d26a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40d21c53b4ba4d5db58a29b144001050') in 0.251465 seconds 
+  Import took 0.255671 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 35.014569 seconds.
-  path: Assets/Shader/Chapter 6/6-5-1.shader
-  artifactKey: Guid(93888c29d922a3a4d8d479528856e89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/Chapter 6/6-5-1.shader using Guid(93888c29d922a3a4d8d479528856e89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a317078518b626c8fdf6f349f9c4e6e2') in 0.003026 seconds 
-  Import took 0.007443 seconds .
+  Time since last request: 356.944198 seconds.
+  path: Assets/Shader/Chapter 14/14-1-1 1.shader
+  artifactKey: Guid(d4fe20dbdcd8c134b9e235d98f6c2571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Chapter 14/14-1-1 1.shader using Guid(d4fe20dbdcd8c134b9e235d98f6c2571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '555ca61a278a63656b12a50f0453f713') in 0.020006 seconds 
+  Import took 0.025793 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 84.599466 seconds.
-  path: Assets/Shader/Chapter 6/6-5-1.shader
-  artifactKey: Guid(93888c29d922a3a4d8d479528856e89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/Chapter 6/6-5-1.shader using Guid(93888c29d922a3a4d8d479528856e89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d36017fbe8717eabaa8f289716645df') in 0.003545 seconds 
-  Import took 0.006517 seconds .
+  Time since last request: 5.138495 seconds.
+  path: Assets/Shader/Chapter 14/14-2-1.shader
+  artifactKey: Guid(d4fe20dbdcd8c134b9e235d98f6c2571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Chapter 14/14-2-1.shader using Guid(d4fe20dbdcd8c134b9e235d98f6c2571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a6bc84f3971b7827b3b9fc8d81f41a2') in 0.003749 seconds 
+  Import took 0.006879 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.469861 seconds.
-  path: Assets/Shader/Chapter 6/6-5-1.shader
-  artifactKey: Guid(93888c29d922a3a4d8d479528856e89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/Chapter 6/6-5-1.shader using Guid(93888c29d922a3a4d8d479528856e89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a006fdf844d985e9e19423696060431') in 0.002734 seconds 
-  Import took 0.005283 seconds .
+  Time since last request: 45.556158 seconds.
+  path: Assets/Shader/Chapter 14/14-2-1.shader
+  artifactKey: Guid(d4fe20dbdcd8c134b9e235d98f6c2571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Chapter 14/14-2-1.shader using Guid(d4fe20dbdcd8c134b9e235d98f6c2571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79d36b3b40708558312f0e6b6302fedf') in 0.005893 seconds 
+  Import took 0.009167 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 18.784468 seconds.
-  path: Assets/Shader/Chapter 6/6-5-1.shader
-  artifactKey: Guid(93888c29d922a3a4d8d479528856e89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/Chapter 6/6-5-1.shader using Guid(93888c29d922a3a4d8d479528856e89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60d8dc9c1b0d814d2f9f23d80b7326f8') in 0.003003 seconds 
-  Import took 0.005816 seconds .
+  Time since last request: 14.064593 seconds.
+  path: Assets/Material/Chapter 14/14-2-1.mat
+  artifactKey: Guid(585af1ac4b4ec0343aa06928af13b1a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Chapter 14/14-2-1.mat using Guid(585af1ac4b4ec0343aa06928af13b1a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9337935afed26623f683870fb2df15ce') in 0.067826 seconds 
+  Import took 0.074918 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 37.260860 seconds.
-  path: Assets/Shader/Chapter 6/6-5-1.shader
-  artifactKey: Guid(93888c29d922a3a4d8d479528856e89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/Chapter 6/6-5-1.shader using Guid(93888c29d922a3a4d8d479528856e89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'babfa7fe67e42f4068c3d49e695a8b3e') in 0.004715 seconds 
-  Import took 0.007326 seconds .
+  Time since last request: 191.329411 seconds.
+  path: Assets/Texture/hatch_0.jpg
+  artifactKey: Guid(a67eb5c49641c4247beb7ae3563b9266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/hatch_0.jpg using Guid(a67eb5c49641c4247beb7ae3563b9266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0b32eaeed669bfb9719c1d45b12f15c') in 0.053026 seconds 
+  Import took 0.056115 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.433915 seconds.
-  path: Assets/Shader/Chapter 6/6-4-3.shader
-  artifactKey: Guid(3865d8634e3968b4ea655a38d4bd4071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/Chapter 6/6-4-3.shader using Guid(3865d8634e3968b4ea655a38d4bd4071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6de93854023f24cbb53ac2c13498acb') in 0.002366 seconds 
-  Import took 0.004335 seconds .
+  Time since last request: 0.000200 seconds.
+  path: Assets/Texture/hatch_4.jpg
+  artifactKey: Guid(fef7fc840b677a244a54dea781066417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/hatch_4.jpg using Guid(fef7fc840b677a244a54dea781066417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cbafc311a9d9e939664b55b98888923') in 0.007012 seconds 
+  Import took 0.009031 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 18.405907 seconds.
-  path: Assets/Shader/Chapter 6/6-5-1.shader
-  artifactKey: Guid(93888c29d922a3a4d8d479528856e89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/Chapter 6/6-5-1.shader using Guid(93888c29d922a3a4d8d479528856e89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27db4092b847e4319440ad51e667cad6') in 0.002476 seconds 
-  Import took 0.005317 seconds .
+  Time since last request: 0.000210 seconds.
+  path: Assets/Texture/hatch_1.jpg
+  artifactKey: Guid(75f0bf70303620e4eb6b46e746f68b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/hatch_1.jpg using Guid(75f0bf70303620e4eb6b46e746f68b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b) or: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error: 5
+CreateFile() Error:  -> (artifact id: '7c70a75b8dd6ddde90d8ef1f20523ca2') in 0.007457 seconds 
+  Import took 0.009649 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 127.096247 seconds.
-  path: Assets/Shader/Chapter 6/6-5-1.shader
-  artifactKey: Guid(93888c29d922a3a4d8d479528856e89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/Chapter 6/6-5-1.shader using Guid(93888c29d922a3a4d8d479528856e89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '960b1aa69a9e3ccbfc8730121f61c18e') in 0.003206 seconds 
-  Import took 0.005950 seconds .
+  Time since last request: 0.000387 seconds.
+  path: Assets/Texture/hatch_3.jpg
+  artifactKey: Guid(e3d690df3dd3ee8488c0c177d49788dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/hatch_3.jpg using Guid(e3d690df3dd3ee8488c0c177d49788dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f0b10c063af50e8ade9270d8b0c7057') in 0.008733 seconds 
+  Import took 0.011241 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 44.230974 seconds.
-  path: Assets/Shader/Chapter 6/6-4-2.shader
-  artifactKey: Guid(0da9b98f29f644c4596b23a333057136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/Chapter 6/6-4-2.shader using Guid(0da9b98f29f644c4596b23a333057136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02bf5b228b324eb7ffc2716ddd443321') in 0.002371 seconds 
-  Import took 0.004593 seconds .
+  Time since last request: 0.000164 seconds.
+  path: Assets/Texture/hatch_2.jpg
+  artifactKey: Guid(c9f7c188461f6294c946d727fb98d74b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/hatch_2.jpg using Guid(c9f7c188461f6294c946d727fb98d74b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f5a0cfe8111c03868a70a54b9c4ed4c') in 0.012163 seconds 
+  Import took 0.015208 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.312252 seconds.
-  path: Assets/Shader/Chapter 6/6-4-3.shader
-  artifactKey: Guid(3865d8634e3968b4ea655a38d4bd4071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/Chapter 6/6-4-3.shader using Guid(3865d8634e3968b4ea655a38d4bd4071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fda337b37056caedb2619e3ddb3f5dc') in 0.004052 seconds 
-  Import took 0.009335 seconds .
+  Time since last request: 0.000309 seconds.
+  path: Assets/Texture/hatch_5.jpg
+  artifactKey: Guid(f389c381a30b2dc42899991c3bff7b9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/hatch_5.jpg using Guid(f389c381a30b2dc42899991c3bff7b9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da551c2ba7409e112f361e421b0fc70a') in 0.013852 seconds 
+  Import took 0.017544 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.542540 seconds.
-  path: Assets/Shader/Chapter 6/6-5-1.shader
-  artifactKey: Guid(93888c29d922a3a4d8d479528856e89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/Chapter 6/6-5-1.shader using Guid(93888c29d922a3a4d8d479528856e89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86c6cad68de96a5013ee577a36b68dec') in 0.035884 seconds 
-  Import took 0.040924 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 45.059652 seconds.
-  path: Assets/Shader/Chapter 6/6-5-1.shader
-  artifactKey: Guid(93888c29d922a3a4d8d479528856e89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/Chapter 6/6-5-1.shader using Guid(93888c29d922a3a4d8d479528856e89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f1672e9e698c9955896935b818550a9') in 0.003637 seconds 
-  Import took 0.006496 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 46.005636 seconds.
-  path: Assets/Shader/Chapter 6/6-5-1.shader
-  artifactKey: Guid(93888c29d922a3a4d8d479528856e89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/Chapter 6/6-5-1.shader using Guid(93888c29d922a3a4d8d479528856e89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78d64a55fb7022a25569dbdd9703faa8') in 0.002645 seconds 
-  Import took 0.005251 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.697904 seconds.
-  path: Assets/Shader/Chapter 6/6-5-1.shader
-  artifactKey: Guid(93888c29d922a3a4d8d479528856e89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/Chapter 6/6-5-1.shader using Guid(93888c29d922a3a4d8d479528856e89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10bbcd70c2e6fa2d4f594f3f76671310') in 0.002997 seconds 
-  Import took 0.005328 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.765400 seconds.
-  path: Assets/Shader/Chapter 6/6-5-1.shader
-  artifactKey: Guid(93888c29d922a3a4d8d479528856e89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/Chapter 6/6-5-1.shader using Guid(93888c29d922a3a4d8d479528856e89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '097e46ab4fbc2be14acd63c794bb44dc') in 0.003205 seconds 
-  Import took 0.005389 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 28.547134 seconds.
-  path: Assets/Shader/Chapter 6/6-5-1.shader
-  artifactKey: Guid(93888c29d922a3a4d8d479528856e89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/Chapter 6/6-5-1.shader using Guid(93888c29d922a3a4d8d479528856e89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4067e66f992f04fabcf14fc6ef94be5') in 0.002646 seconds 
-  Import took 0.005539 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 96.885969 seconds.
-  path: Assets/Shader/Chapter 6/6-5-1.shader
-  artifactKey: Guid(93888c29d922a3a4d8d479528856e89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/Chapter 6/6-5-1.shader using Guid(93888c29d922a3a4d8d479528856e89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16706e32d728176279ffd4cd601be43d') in 0.003508 seconds 
-  Import took 0.007879 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 33.734821 seconds.
-  path: Assets/Shader/Chapter 6/6-5-1.shader
-  artifactKey: Guid(93888c29d922a3a4d8d479528856e89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/Chapter 6/6-5-1.shader using Guid(93888c29d922a3a4d8d479528856e89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb3c0c626f94e9edc67337a7b140f3d9') in 0.005878 seconds 
-  Import took 0.008534 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 53.200601 seconds.
-  path: Assets/Material/Chapter 6/6-5-1.mat
-  artifactKey: Guid(2f919246355ce0a40819cd90fad008c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Chapter 6/6-5-1.mat using Guid(2f919246355ce0a40819cd90fad008c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'Shader Study/Chapter 6/6-5-1': Unexpected directive '
-' at line 26
-
-Compiling Vertex program
-Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_FORWARDBASE UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
-Disabled keywords: SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_VIRTUAL_TEXTURING
-Shader warning in 'Shader Study/Chapter 6/6-5-1': Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation. at line 19
-
-Compiling Vertex program
-Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_FORWARDBASE UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
-Disabled keywords: SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_VIRTUAL_TEXTURING
-Shader warning in 'Shader Study/Chapter 6/6-5-1': CGPROGRAM block does not contain #pragma vertex, #pragma fragment or #pragma surface directive, skipping at line 19
-
-Compiling Vertex program
-Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_FORWARDBASE UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
-Disabled keywords: SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_VIRTUAL_TEXTURING
-Shader error in 'Shader Study/Chapter 6/6-5-1': Unexpected directive '
-' at line 26
-
-Compiling Vertex program
-Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_FORWARDBASE UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
-Disabled keywords: SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_VIRTUAL_TEXTURING
-Shader error in 'Shader Study/Chapter 6/6-5-1': syntax error: unexpected end of file at line 34 (on d3d11)
-
-Compiling Fragment program
-Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_FORWARDBASE UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
-Disabled keywords: SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_VIRTUAL_TEXTURING
-Shader warning in 'Shader Study/Chapter 6/6-5-1': Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation. at line 19
-
-Compiling Vertex program
-Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_FORWARDBASE UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
-Disabled keywords: SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_VIRTUAL_TEXTURING
-Shader warning in 'Shader Study/Chapter 6/6-5-1': CGPROGRAM block does not contain #pragma vertex, #pragma fragment or #pragma surface directive, skipping at line 19
-
-Compiling Vertex program
-Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_FORWARDBASE UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
-Disabled keywords: SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_VIRTUAL_TEXTURING
- -> (artifact id: '8964de7054c31c8900bab0eaef631c9d') in 0.119828 seconds 
-  Import took 0.121897 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.567382 seconds.
-  path: Assets/Shader/Chapter 6/6-5-1.shader
-  artifactKey: Guid(93888c29d922a3a4d8d479528856e89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/Chapter 6/6-5-1.shader using Guid(93888c29d922a3a4d8d479528856e89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e3d6cc5f6d8e0a227c90bb3a1dc3ebb') in 0.002638 seconds 
-  Import took 0.005484 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 148.529795 seconds.
-  path: Assets/Material/Chapter 6/6-5-1.mat
-  artifactKey: Guid(2f919246355ce0a40819cd90fad008c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Chapter 6/6-5-1.mat using Guid(2f919246355ce0a40819cd90fad008c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e53bb149cc2c66ce1b2a3ce0289ca2c6') in 0.023729 seconds 
-  Import took 0.027765 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 494.623629 seconds.
-  path: Assets/Shader/Chapter 6/6-5-2.shader
-  artifactKey: Guid(0c5660f55420c7446946d66eb6ccf20c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/Chapter 6/6-5-2.shader using Guid(0c5660f55420c7446946d66eb6ccf20c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8200be0d11abf3bd6e513886970f244') in 0.005201 seconds 
-  Import took 0.009997 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 32.680465 seconds.
-  path: Assets/Shader/Chapter 6/6-5-2.shader
-  artifactKey: Guid(0c5660f55420c7446946d66eb6ccf20c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/Chapter 6/6-5-2.shader using Guid(0c5660f55420c7446946d66eb6ccf20c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '213c15b0e8558b60ab59db021290a2a0') in 0.005153 seconds 
-  Import took 0.007589 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.088306 seconds.
-  path: Assets/Material/Chapter 6/6-5-2.mat
-  artifactKey: Guid(097cfb127f3246a44adff233d961d018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Chapter 6/6-5-2.mat using Guid(097cfb127f3246a44adff233d961d018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14b3210a686517f8c66cb8300d0f41e8') in 0.048137 seconds 
-  Import took 0.050757 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 28.948325 seconds.
-  path: Assets/Material/Chapter 6/6-5-3 BP.mat
-  artifactKey: Guid(3f367a0a72e9acb4580fa96b5f752b1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Chapter 6/6-5-3 BP.mat using Guid(3f367a0a72e9acb4580fa96b5f752b1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9107012aa1618dcb5402a20646d8cfa') in 0.041848 seconds 
-  Import took 0.045014 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.638923 seconds.
-  path: Assets/Shader/Chapter 6/6-5-2 1.shader
-  artifactKey: Guid(66bb6abdd9142584389cb50322374f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/Chapter 6/6-5-2 1.shader using Guid(66bb6abdd9142584389cb50322374f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd953bedaf609a13acce48fee2eafa158') in 0.005747 seconds 
-  Import took 0.009756 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.805769 seconds.
-  path: Assets/Shader/Chapter 6/6-5-3 BP.shader
-  artifactKey: Guid(66bb6abdd9142584389cb50322374f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/Chapter 6/6-5-3 BP.shader using Guid(66bb6abdd9142584389cb50322374f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) or: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error: 5
-CreateFile() Error:  -> (artifact id: '28b4efb4d452f3d6a20b9102b23849dc') in 0.005444 seconds 
-  Import took 0.008613 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 33.095871 seconds.
-  path: Assets/Shader/Chapter 6/6-5-3 BP.shader
-  artifactKey: Guid(66bb6abdd9142584389cb50322374f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/Chapter 6/6-5-3 BP.shader using Guid(66bb6abdd9142584389cb50322374f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '727051b3782478933c5c497289e7f738') in 0.004415 seconds 
-  Import took 0.006662 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.935873 seconds.
-  path: Assets/Material/Chapter 6/6-5-2.mat
-  artifactKey: Guid(097cfb127f3246a44adff233d961d018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Chapter 6/6-5-2.mat using Guid(097cfb127f3246a44adff233d961d018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e2210b406f27c2eefc753d1b0a2f8bf') in 0.085355 seconds 
-  Import took 0.088048 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 81.112173 seconds.
-  path: Assets/Material/Chapter 6/6-5-3 BP.mat
-  artifactKey: Guid(3f367a0a72e9acb4580fa96b5f752b1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Chapter 6/6-5-3 BP.mat using Guid(3f367a0a72e9acb4580fa96b5f752b1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd8af2228ab8e871e16e3d06aa3e50c6') in 0.090887 seconds 
-  Import took 0.093507 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 828.921454 seconds.
-  path: Assets/Shader/Chapter 7
-  artifactKey: Guid(997347d1f4ba20545807db591b1f27f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/Chapter 7 using Guid(997347d1f4ba20545807db591b1f27f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7df136a3197f0645d81d155eeaefda5f') in 0.007335 seconds 
-  Import took 0.012254 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.349049 seconds.
-  path: Assets/Material/Chapter 7
-  artifactKey: Guid(f8bca824e6926564da5b9d7d51dd2746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Chapter 7 using Guid(f8bca824e6926564da5b9d7d51dd2746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8dc9e1f2ebc6c11168eb051732924de') in 0.003451 seconds 
-  Import took 0.005925 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 69.575360 seconds.
-  path: Assets/Texture/wood.jpg
-  artifactKey: Guid(41502cb30c1da204cafb2c01af4d359c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/wood.jpg using Guid(41502cb30c1da204cafb2c01af4d359c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14c70848883bc60887a98c3d82902ba8') in 0.037428 seconds 
-  Import took 0.040046 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 45.776375 seconds.
-  path: Assets/Shader/Chapter 7/7-1-1.shader
-  artifactKey: Guid(cc93ff327d0f8ff41babd3432129446c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/Chapter 7/7-1-1.shader using Guid(cc93ff327d0f8ff41babd3432129446c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebaac091a71b8210d6500b8cd05dc0dc') in 0.007268 seconds 
-  Import took 0.010514 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 27.745953 seconds.
-  path: Assets/Shader/Chapter 7/7-1-1.shader
-  artifactKey: Guid(cc93ff327d0f8ff41babd3432129446c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/Chapter 7/7-1-1.shader using Guid(cc93ff327d0f8ff41babd3432129446c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ef454bf4dce6ac025398616485803b4') in 0.005014 seconds 
-  Import took 0.007498 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.806669 seconds.
-  path: Assets/Material/Chapter 7/7-1-1.mat
-  artifactKey: Guid(c533a3324709dd149a633263f9240867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Chapter 7/7-1-1.mat using Guid(c533a3324709dd149a633263f9240867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '524bdf56fcd0e8dc93baa9e236fc5d1c') in 0.043411 seconds 
-  Import took 0.045821 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8104.016607 seconds.
-  path: Assets/Material/Chapter 7/7-1-1.mat
-  artifactKey: Guid(c533a3324709dd149a633263f9240867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Chapter 7/7-1-1.mat using Guid(c533a3324709dd149a633263f9240867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '135e7b0f3238d26541dd805718bf5290') in 0.099138 seconds 
-  Import took 0.104044 seconds .
+  Time since last request: 0.000246 seconds.
+  path: Assets/Texture/paper.jpg
+  artifactKey: Guid(66b4188668a6c964c94d22794956e35e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/paper.jpg using Guid(66b4188668a6c964c94d22794956e35e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b087e8994fc8c9f97bb3eda5d28f9a57') in 0.013606 seconds 
+  Import took 0.018572 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
