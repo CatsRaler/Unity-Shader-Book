@@ -60,6 +60,7 @@
     <Compile Include="Assets\Scripts\Chapter 12\MotionBlur.cs" />
     <Compile Include="Assets\Scripts\Chapter 12\EdgeDetection.cs" />
     <Compile Include="Assets\Scripts\Chapter 12\Bloom.cs" />
+    <Compile Include="Assets\Scripts\Chapter 15\FogWithNoise.cs" />
     <Compile Include="Assets\Scripts\Chapter 12\PostEffectsBase.cs" />
     <Compile Include="Assets\Scripts\RenderCubemapWizard.cs" />
     <Compile Include="Assets\Scripts\Chapter 12\Translating.cs" />
@@ -74,6 +75,7 @@
     <None Include="Assets\Shader\test\test3.shader" />
     <None Include="Assets\Shader\Chapter 8\8-3-1.shader" />
     <None Include="Assets\Shader\Chapter 9\9-2-1.shader" />
+    <None Include="Assets\Shader\Chapter 15\15-1-1.shader" />
     <None Include="Assets\Shader\Chapter 11\11-2-1.shader" />
     <None Include="Assets\Shader\Chapter 6\6-5-1.shader" />
     <None Include="Assets\Shader\Chapter 10\10-2-1.shader" />
@@ -82,6 +84,7 @@
     <None Include="Assets\Shader\Chapter 13\13-3-1.shader" />
     <None Include="Assets\Shader\test\test1.shader" />
     <None Include="Assets\Shader\test\diffuse_vertex.shader" />
+    <None Include="Assets\Shader\Chapter 15\15-2-1.shader" />
     <None Include="Assets\Shader\Chapter 12\12-6-1.shader" />
     <None Include="Assets\Shader\Chapter 12\12-4-1.shader" />
     <None Include="Assets\Shader\Chapter 6\6-5-3 BP.shader" />
@@ -92,18 +95,22 @@
     <None Include="Assets\Shader\Chapter 8\8-5-1.shader" />
     <None Include="Assets\Shader\Chapter 13\13-2-1.shader" />
     <None Include="Assets\Shader\Chapter 11\11-3-1.shader" />
+    <None Include="Assets\Material\test\NewSurfaceShader.shader" />
     <None Include="Assets\Shader\Chapter 7\7-3-1.shader" />
     <None Include="Assets\Shader\Chapter 6\6-4-1.shader" />
     <None Include="Assets\Shader\Chapter 13\13-4-1.shader" />
     <None Include="Assets\Shader\Chapter 14\14-1-1.shader" />
+    <None Include="Assets\Shader\Chapter 15\15-3-1.shader" />
     <None Include="Assets\Shader\Chapter 10\10-1-2.shader" />
     <None Include="Assets\Shader\Chapter 9\9-4-3.shader" />
     <None Include="Assets\Shader\Chapter 5\5-2.shader" />
     <None Include="Assets\Shader\Chapter 9\9-4-2.shader" />
     <None Include="Assets\Shader\Chapter 7\7-2-2.shader" />
+    <None Include="Assets\Shader\Chapter 17\17-5-1.shader" />
     <None Include="Assets\Shader\Chapter 6\6-5-2.shader" />
     <None Include="Assets\Shader\Chapter 7\7-1-1.shader" />
     <None Include="Assets\Shader\Chapter 6\6-4-2.shader" />
+    <None Include="Assets\Shader\Chapter 17\17-1-1.shader" />
     <None Include="Assets\Shader\Chapter 10\10-1-1.shader" />
     <None Include="Assets\Shader\Chapter 11\11-3-2.shader" />
     <None Include="Assets\Shader\test\test2.shader" />

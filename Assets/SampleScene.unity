@@ -244,19 +244,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f15182eb476076f4a862b1a8d8d26a8d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.197
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f15182eb476076f4a862b1a8d8d26a8d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.84
+      value: 1.59
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f15182eb476076f4a862b1a8d8d26a8d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.16
+      value: -1.232
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f15182eb476076f4a862b1a8d8d26a8d, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.02661307
+      value: -0.08113073
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f15182eb476076f4a862b1a8d8d26a8d, type: 3}
       propertyPath: m_LocalRotation.x
@@ -264,11 +264,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f15182eb476076f4a862b1a8d8d26a8d, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.9996458
+      value: -0.9967035
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f15182eb476076f4a862b1a8d8d26a8d, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f15182eb476076f4a862b1a8d8d26a8d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -276,7 +276,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f15182eb476076f4a862b1a8d8d26a8d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -183.05
+      value: -189.307
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f15182eb476076f4a862b1a8d8d26a8d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -301,7 +301,7 @@ PrefabInstance:
     - target: {fileID: 3621080187716616713, guid: f15182eb476076f4a862b1a8d8d26a8d, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 585af1ac4b4ec0343aa06928af13b1a4, type: 2}
+      objectReference: {fileID: 2100000, guid: d8fcdc40601b77e499f55c63a3fcd14b, type: 2}
     - target: {fileID: 3621080187716616713, guid: f15182eb476076f4a862b1a8d8d26a8d, type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
@@ -328,6 +328,7 @@ GameObject:
   - component: {fileID: 963194235}
   - component: {fileID: 963194236}
   - component: {fileID: 963194237}
+  - component: {fileID: 963194238}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -393,8 +394,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: -0.17739578, y: -0.18158746, z: 0.033360027, w: -0.96666634}
-  m_LocalPosition: {x: -1.7337213, y: 4.012009, z: -4.0981827}
+  m_LocalRotation: {x: 0.05283834, y: 0.20375925, z: -0.01101218, w: 0.97753215}
+  m_LocalPosition: {x: -2.3958354, y: 3.2104044, z: -5.4583426}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -546,6 +547,27 @@ MonoBehaviour:
   sampleDistance: 7.56
   sensitivityDepth: 1
   sensitivityNormals: 1
+--- !u!114 &963194238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 680af1542bdeec04da83ff01feb75e5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fogShader: {fileID: 4800000, guid: 6a532a28f118c9c4ba13c82c52982d9f, type: 3}
+  fogDensity: 1
+  fogColor: {r: 0.4339623, g: 0.4339623, b: 0.4339623, a: 1}
+  fogStart: 1
+  fogEnd: 4
+  noiseTexture: {fileID: 2800000, guid: bf6a206e53ad74d48a102f5b3279c670, type: 3}
+  fogXSpeed: 0.1
+  fogYSpeed: 0.1
+  noiseAmount: 1
 --- !u!1 &1640256395
 GameObject:
   m_ObjectHideFlags: 0
