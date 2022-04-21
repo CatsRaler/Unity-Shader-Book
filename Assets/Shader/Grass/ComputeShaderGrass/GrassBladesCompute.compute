@@ -1,0 +1,219 @@
+// MIT License
+
+// Copyright (c) 2020 NedMakesGames
+
+// Permission is hereby granted, free of charge, to any person obtaining a copy
+// of this software and associated documentation files(the "Software"), to deal
+// in the Software without restriction, including without limitation the rights
+// to use, copy, modify, merge, publish, distribute, sublicense, and / or sell
+// copies of the Software, and to permit persons to whom the Software is
+// furnished to do so, subject to the following conditions :
+
+// The above copyright notice and this permission notice shall be included in all
+// copies or substantial portions of the Software.
+
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+// FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.IN NO EVENT SHALL THE
+// AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+// SOFTWARE.
+
+// Each #kernel tells which function to compile; you can have many kernels
+#pragma kernel Main
+
+// Disable a warning about using a negative number in the pow
+// function. We ensure the number is positive in the renderer script
+#pragma warning (disable : 3571)
+
+// Import some helper functions
+#include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl"
+#include "NMGGrassBladeComputeHelpers.hlsl"
+
+// Define the maximum number of blade segments and then the number of points required
+#define MAX_BLADE_SEGMENTS 5
+#define MAX_BLADE_POINTS MAX_BLADE_SEGMENTS * 2 + 1
+
+// This describes a vertex on the source mesh
+struct SourceVertex {
+    float3 positionOS; // Position in object space
+};
+// Source buffers, arranged as a vertex buffer and index buffer
+StructuredBuffer<SourceVertex> _SourceVertices;
+StructuredBuffer<int> _SourceTriangles;
+
+// This describes a vertex on the generated mesh
+struct DrawVertex {
+    float3 positionWS; // The position in world space
+    float height; // The height of this vertex on the grass blade
+};
+// A triangle on the generated mesh
+struct DrawTriangle {
+    float3 lightingNormalWS; // A normal, in world space, to use in the lighting algorithm
+    DrawVertex vertices[3]; // The three points on the triangle
+};
+// A buffer containing the generated mesh
+AppendStructuredBuffer<DrawTriangle> _DrawTriangles;
+
+// The indirect draw call args, as described in the renderer script
+struct IndirectArgs {
+    uint numVerticesPerInstance;
+    uint numInstances;
+    uint startVertexIndex;
+    uint startInstanceIndex;
+};
+// The kernel will count the number of vertices, so this must be RW enabled
+RWStructuredBuffer<IndirectArgs> _IndirectArgsBuffer;
+
+// Variables set by the renderer
+int _NumSourceTriangles; // The number of triangles on the source mesh
+int _MaxBladeSegments; // The maximum number of segments on the blade
+float _MaxBendAngle; // Maximum bend angle as a multiplier to PI / 2
+float _BladeCurvature; // Describes how sharply the blade bends
+float _BladeHeight; // Maximum height of a blade
+float _BladeHeightVariance; // Variance of blade height
+float _BladeWidth; // Maximum blade width
+float _BladeWidthVariance; // Variance of blade width
+// Wind noise and multipliers
+TEXTURE2D(_WindNoiseTexture); SAMPLER(sampler_WindNoiseTexture);
+float _WindTimeMult;
+float _WindTexMult;
+float _WindPosMult;
+float _WindAmplitude;
+// Local to world matrix
+float4x4 _LocalToWorld;
+
+void GetCenterAndBasis(SourceVertex a, SourceVertex b, SourceVertex c, out float3 positionWS, out float3 normalWS, out float3x3 tsToWs) {
+    // We need to figure out the center of the triangle, since that is where the blade will sprout
+    // Convert each triangle point to world space
+    float3 positionA_WS = mul(_LocalToWorld, float4(a.positionOS, 1)).xyz;
+    float3 positionB_WS = mul(_LocalToWorld, float4(b.positionOS, 1)).xyz;
+    float3 positionC_WS = mul(_LocalToWorld, float4(c.positionOS, 1)).xyz;
+    // Then get the center point
+    positionWS = GetTriangleCenter(positionA_WS, positionB_WS, positionC_WS);
+    // and the normal vector and TS -> WS transformation matrix
+    GetTriangleNormalAndTSToWSMatrix(positionA_WS, positionB_WS, positionC_WS, normalWS, tsToWs);
+}
+
+float2 GetBladeDimensions(float3 positionWS) {
+    // Calculate the blade width and height, applying random variance
+    float width = randNegative1to1(positionWS, 0) * _BladeWidthVariance + _BladeWidth;
+    float height = randNegative1to1(positionWS, 1) * _BladeHeightVariance + _BladeHeight;
+    return float2(width, height);
+}
+
+float3 GetWindAxis(float3 positionWS, float3 normalWS) {
+    // Calculate the wind axis which also encodes the wind strength
+    // The windUV is affected by the position's XZ world position and the time since scene load (_Time.y)
+    float2 windUV = positionWS.xz * _WindPosMult + _Time.y * _WindTimeMult;
+    windUV = windUV * _WindTexMult;
+    // Sample the wind noise texture and remap to range between -1 and 1
+    float2 windNoise = SAMPLE_TEXTURE2D_LOD(_WindNoiseTexture, sampler_WindNoiseTexture, windUV, 0).xy * 2 - 1;
+    // We want to grass to blow by rotating in a direction perpendicular to it's normal
+    // cross will find one such vector. Since windNoise is not normalized, it also encodes some strength
+    return cross(normalWS, float3(windNoise.x, 0, windNoise.y));
+}
+
+// Calculate the tangent to world matrix for a point at the given V-coordinate
+float3x3 FigureTransformationForHeight(float v, float3x3 twistMatrix, float3x3 tsToWs, float maxBend, float3 windAxis) {
+    // The bend amount increases towards the tip
+    // Higher _BladeCurvature values cause the tip to bend more harshly
+    float3x3 bendMatrix = AngleAxis3x3(maxBend * pow(v, _BladeCurvature), float3(1, 0, 0));
+    // The rotation due to wind is higher closer to the tip
+    float3x3 windMatrix = AngleAxis3x3(_WindAmplitude * v, windAxis);
+    // Remember rotation is applies from left to right
+    // Bend, then twist, then convert to world space, then apply wind
+    return mul(windMatrix, mul(tsToWs, mul(twistMatrix, bendMatrix)));
+}
+
+// This function calculates values for the output point
+DrawVertex SetupBladePoint(float3 anchorWS, float2 dimensions, float3x3 tsToWs, float2 uv) {
+    // Calculate the offset in tangent space based on the UV and width/height
+    float3 offsetTS = float3((uv.x - 0.5f) * dimensions.x, 0, uv.y * dimensions.y);
+    // Calculate the offset in world space using the rotation matrix
+    float3 offsetWS = mul(tsToWs, offsetTS);
+
+    float3 positionWS = anchorWS + offsetWS;
+
+    DrawVertex output = (DrawVertex)0;
+    output.positionWS = positionWS;
+    output.height = uv.y;
+    return output;
+}
+
+// The main kernel
+[numthreads(128, 1, 1)]
+void Main(uint3 id : SV_DispatchThreadID) {
+
+    // Return if every triangle has been processed
+    if ((int)id.x >= _NumSourceTriangles) {
+        return;
+    }
+
+    // Calculate the start index of this triangle in the index buffer
+    int triStart = id.x * 3;
+    // Get the triangle center, normal vector, and tangent-to-world space transformation matrix
+    float3 positionWS, normalWS;
+    float3x3 tsToWs;
+    GetCenterAndBasis(
+        _SourceVertices[_SourceTriangles[triStart]],
+        _SourceVertices[_SourceTriangles[triStart + 1]],
+        _SourceVertices[_SourceTriangles[triStart + 2]],
+        positionWS, normalWS, tsToWs);
+
+    float2 dimensions = GetBladeDimensions(positionWS);
+
+    // The twist matrix decides which direction the grass blade will face
+    float3x3 twistMatrix = AngleAxis3x3(rand(positionWS, 2) * PI * 2, float3(0, 0, 1));
+    // This bend angle decides how much the tip bends towards 90 degrees
+    float maxBend = rand(positionWS, 3) * PI * 0.5f * _MaxBendAngle;
+
+    float3 windAxis = GetWindAxis(positionWS, normalWS);
+
+    int numBladeSegments = min(MAX_BLADE_SEGMENTS, max(1, _MaxBladeSegments));
+    // Create an array to hold blade points. This is why there is a set maximum number of segments
+    DrawVertex vertices[MAX_BLADE_POINTS];
+
+    // Blade points will be arranged from the bottom up in the array
+    // with the point with the minimum u-coordinate in a pair appearing first
+
+    // Construct the square segments of the grass blade
+    // Also, since culling is off, there is no reason to worry about winding direction
+    for (int i = 0; i < numBladeSegments; i++) {
+        // The v rises as we increase in segments
+        float v = i / (float)numBladeSegments;
+        // The u of the first vertex. It converges on 0.5 as the segment increases
+        float u = 0.5 - (1 - v) * 0.5;
+        // Calculate the final transform for this height
+        float3x3 transform = FigureTransformationForHeight(v, twistMatrix, tsToWs, maxBend, windAxis);
+
+        // Append the first vertex
+        vertices[i * 2] = SetupBladePoint(positionWS, dimensions, transform, float2(u, v));
+
+        // Append the second vertex
+        vertices[i * 2 + 1] = SetupBladePoint(positionWS, dimensions, transform, float2(1 - u, v));
+    }
+
+    // Calculate the transform for the blade tip
+    float3x3 tipTransform = FigureTransformationForHeight(1, twistMatrix, tsToWs, maxBend, windAxis);
+    // Append the tip vertex
+    vertices[numBladeSegments * 2] = SetupBladePoint(positionWS, dimensions, tipTransform, float2(0.5, 1));
+
+    // Add triangles from the array into the draw buffer
+    // We can construct a triangle from every three adjacent points in the array
+    int numTriangles = (numBladeSegments - 1) * 2 + 1;
+    for (i = 0; i < numTriangles; i++) {
+        DrawTriangle tri = (DrawTriangle)0;
+        tri.lightingNormalWS = normalWS;
+        tri.vertices[0] = vertices[i];
+        tri.vertices[1] = vertices[i + 1];
+        tri.vertices[2] = vertices[i + 2];
+        _DrawTriangles.Append(tri);
+    }
+
+    // InterlockedAdd(a, b) adds b to a and stores the value in a. It is thread-safe
+    // This call counts the number of vertices, storing it in the indirect arguments
+    // This tells the renderer how many vertices are in the mesh in DrawProcedural
+    InterlockedAdd(_IndirectArgsBuffer[0].numVerticesPerInstance, numTriangles * 3);
+}
