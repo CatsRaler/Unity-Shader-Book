@@ -40,16 +40,18 @@ Shader "Shader101/102-2 Scan"
 			}
 
 			//因为偏向于后处理，所以shader中的参数要在脚本里面修改
-			float4 _LineColor;
 			float _Temp;
+			float4 _LineColor;
+			float _ScanLineWidth;
+			float _ScanLineSpeed;
 
 			fixed4 frag(v2f i) : SV_Target
 			{
 				float invert = 1 - i.depth;
 
 				//这里用了tan函数来计算波，这样的话就可以按照一定时间片Biubiubiu
-				_Temp = tan(_Time.y * 1.2);
-				if (abs(i.depth - _Temp / 2) < 0.01)
+				_Temp = tan(_Time.y * _ScanLineSpeed);
+				if (abs(i.depth - _Temp / 2) < _ScanLineWidth)
 					return fixed4(_LineColor.x, _LineColor.y, _LineColor.z, 1);
 				else
 					return fixed4(invert, invert, invert,1);
