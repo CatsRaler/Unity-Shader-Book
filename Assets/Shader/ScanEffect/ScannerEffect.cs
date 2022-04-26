@@ -35,7 +35,7 @@ public class ScannerEffect : MonoBehaviour
             if (Physics.Raycast(ray, out hit))
             {
                 scanning = true;
-                ScanDistance = 0;
+                ScanDistance = 4;
                 ScannerOrigin.position = hit.point;
             }
         }

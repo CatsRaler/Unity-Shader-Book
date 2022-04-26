@@ -106,6 +106,7 @@ Shader "OtherShader/ScannerShader"
                     half4 edge = lerp(_MidColor, _LeadColor, pow(diff, _LeadSharp));
                     scannerCol = lerp(_TrailColor, edge, diff) + horizBars(i.uv) * _HBarColor;
                     scannerCol *= diff;
+  
                 }
 
                 return col + scannerCol;
