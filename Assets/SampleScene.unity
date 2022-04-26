@@ -188,7 +188,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 51e15e78fcba402408f0903c8a31e9d8, type: 2}
+  - {fileID: 2100000, guid: 0c37e2e81b144cd47bdcf8ce56efafe1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -233,6 +233,7 @@ GameObject:
   - component: {fileID: 100932869}
   - component: {fileID: 100932864}
   - component: {fileID: 100932870}
+  - component: {fileID: 100932871}
   m_Layer: 0
   m_Name: ScanCamera
   m_TagString: Untagged
@@ -317,7 +318,8 @@ Transform:
   m_LocalRotation: {x: 0.23261917, y: 0.37542912, z: -0.09760764, w: 0.8918599}
   m_LocalPosition: {x: -3.4010484, y: 8.682768, z: -4.845593}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1743170406}
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -374,7 +376,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 100932863}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9994dfa53f622d840a88f975c4cbc450, type: 3}
   m_Name: 
@@ -382,7 +384,23 @@ MonoBehaviour:
   ScannerOrigin: {fileID: 1743170406}
   EffectMaterial: {fileID: 2100000, guid: bd5afa4c1ccd4f741ac4d22828123156, type: 2}
   ScanDistance: 0
-  ScanSpeed: 40
+  ScanSpeed: 20
+--- !u!114 &100932871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100932863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0af01be967463d946ae89c6fc747ed3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ScannerOrigin2: {fileID: 1743170406}
+  EffectMaterial2: {fileID: 2100000, guid: df35ffd80e3ea73489c258fc05cbcc79, type: 2}
+  ScanDistance2: 0
+  ScanSpeed2: 50
 --- !u!1 &158096086
 GameObject:
   m_ObjectHideFlags: 0
@@ -624,7 +642,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 51e15e78fcba402408f0903c8a31e9d8, type: 2}
+  - {fileID: 2100000, guid: 0c37e2e81b144cd47bdcf8ce56efafe1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1027,7 +1045,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 0c37e2e81b144cd47bdcf8ce56efafe1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1109,7 +1127,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 51e15e78fcba402408f0903c8a31e9d8, type: 2}
+  - {fileID: 2100000, guid: 0c37e2e81b144cd47bdcf8ce56efafe1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1204,7 +1222,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 51e15e78fcba402408f0903c8a31e9d8, type: 2}
+  - {fileID: 2100000, guid: 0c37e2e81b144cd47bdcf8ce56efafe1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1313,7 +1331,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 51e15e78fcba402408f0903c8a31e9d8, type: 2}
+  - {fileID: 2100000, guid: 0c37e2e81b144cd47bdcf8ce56efafe1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1431,12 +1449,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1743170402}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.14, z: 0}
+  m_LocalRotation: {x: -0.23261917, y: -0.37542912, z: 0.09760764, w: 0.8918599}
+  m_LocalPosition: {x: -1.091655, y: -3.7411234, z: 8.760852}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_Father: {fileID: 100932867}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1778666736
 GameObject:

@@ -53,6 +53,7 @@
     <UnityVersion>2020.3.26f1c1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\Shader\Shader 101\201\RenderDepth.cs" />
     <Compile Include="Assets\Scripts\Chapter 13\FogWithDepthTexture.cs" />
     <Compile Include="Assets\Shader\Shader 101\102\ReplacementShaderEffect.cs" />
     <Compile Include="Assets\Scripts\Chapter 13\EdgeDetectNormalsAndDepth.cs" />
@@ -70,9 +71,9 @@
     <Compile Include="Assets\Shader\Grass\ComputeShaderGrass\ProceduralGrassRenderer.cs" />
     <Compile Include="Assets\Scripts\Chapter 12\BrightnessSaturationAndContrast.cs" />
     <Compile Include="Assets\Material\Tutorials-Mat\Chapter 10\MirrorCamera.cs" />
-    <Compile Include="Assets\Shader\Shader 101\201\RenderDepth.cs" />
     <Compile Include="Assets\Shader\Shader 101\202\ScannerEffectDemo.cs" />
     <Compile Include="Assets\Shader\ScanEffect\ScannerEffect.cs" />
+    <Compile Include="Assets\Shader\ScanEffect\PointWave.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Shader\UnityShader-Tutorials\Chapter 8\8-4-1.shader" />
@@ -141,6 +142,7 @@
     <None Include="Assets\Shader\Grass\ComputeShaderGrass\NMGGrassBladeGraphicsHelpers.hlsl" />
     <None Include="Assets\Shader\UnityShader-Tutorials\Chapter 7\7-1-1.shader" />
     <None Include="Assets\Shader\UnityShader-Tutorials\Chapter 6\6-4-2.shader" />
+    <None Include="Assets\Shader\ScanEffect\PointWave.shader" />
     <None Include="Assets\Shader\UnityShader-Tutorials\Chapter 17\17-1-1.shader" />
     <None Include="Assets\Shader\Shader 101\104\Inverse.shader" />
     <None Include="Assets\Shader\Skin\HumanSkin.shader" />
