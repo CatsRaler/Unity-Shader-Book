@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/SampleScene.unity
+- path: Assets/Interpretation-of-Unity-URP/Chapter_7.2/Chapter_7.2.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
