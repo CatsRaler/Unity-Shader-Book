@@ -1,4 +1,4 @@
-Shader "OtherShader/ScannerShader"
+Shader "OtherShader/MyScannerShader"
 {
     Properties
     {
@@ -8,7 +8,8 @@ Shader "OtherShader/ScannerShader"
         _WaveWidth("Wave Width", float) = 1
         _WaveFrequency("Wave Frequency", float) = 1
         _SpreadSpeed("Spread Speed", float) = 10
-        
+        _HorizontalBarFrequency("Horizontal Bar Frequency", Range(1,100)) = 10
+
         _WaveColor("Wave Color", Color) = (0,0,0,1)
         _GlitchColor("Glitch Color", Color) = (0,0,0,1)
     }
@@ -74,11 +75,12 @@ Shader "OtherShader/ScannerShader"
                 float _SpreadSpeed;
                 float4 _WaveColor;
                 float4 _GlitchColor;
+                float _HorizontalBarFrequency;
 
                 //用一个函数写横向纹理
                 float4 horizBars(float2 p)
                 {
-                    return 1 - saturate(round(abs(frac(p.y * 1000) * 2)));
+                    return 1 - saturate(round(abs(frac(p.y * _HorizontalBarFrequency) * 2)));
                 }
                 //用一个函数写横纵向纹理
                 float4 horizTex(float2 p)
