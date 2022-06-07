@@ -41,7 +41,7 @@ Shader "OtherShader/ScannerShader"
                 float4 interpolatedRay : TEXCOORD2;
             };
 
-            float4 _MainTex_TexelSize;
+            //float4 _MainTex_TexelSize;
             float4 _CameraWS;
 
             v2f vert (appdata v)
@@ -53,10 +53,10 @@ Shader "OtherShader/ScannerShader"
                 o.uv_depth = v.uv.xy;
 
                 //注意平台适配,如果跟dx一样从上开始的话就要把后处理的uv上下颠倒一下，即1minus
-                #if UNITY_UV_STARTS_AT_TOP
-                if (_MainTex_TexelSize.y < 0)
-                    o.uv.y = 1 - o.uv.y;
-                #endif				    
+                //#if UNITY_UV_STARTS_AT_TOP
+                //if (_MainTex_TexelSize.y < 0)
+                //    o.uv.y = 1 - o.uv.y;
+                //#endif				    
 
                 o.interpolatedRay = v.ray;
                 return o;
