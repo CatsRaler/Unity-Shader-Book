@@ -87,7 +87,7 @@ Material:
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _GlitchColor: {r: 0.030526895, g: 0.3470817, b: 0.9245283, a: 1}
+    - _GlitchColor: {r: 0.03137254, g: 0.73286724, b: 0.9254902, a: 1}
     - _HBarColor: {r: 0.5, g: 0.5, b: 0.5, a: 0}
     - _LeadColor: {r: 1, g: 1, b: 1, a: 0}
     - _MidColor: {r: 1, g: 1, b: 1, a: 0}
