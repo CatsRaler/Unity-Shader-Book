@@ -3,7 +3,6 @@ Basic shader.
 
 ## Include
 Unity Shader Tutorials
-
 - Chapter 5: Learn Shader
 - Chapter 6: Basic Lighting
 - Chapter 7: Basic Texture
