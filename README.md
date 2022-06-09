@@ -31,5 +31,5 @@ Basic shader.
 - SkinShader (SubSurface Scattering Shader)
 
 ## Game-Programming-Patterns implemented in Unity
-* [Implementation of QianMo](https://github.com/QianMo/Game-Programmer-Study-Notes/blob/master/Content/%E3%80%8A%E6%B8%B8%E6%88%8F%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/README.md)
-- RIP
+* [Implementation in Unity C# By QianMo](https://github.com/QianMo/Unity-Design-Patter)
+- ❀RIP
