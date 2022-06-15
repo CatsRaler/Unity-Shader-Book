@@ -15,11 +15,11 @@ C:/Raler/My-Own-Project/Unity-Shader-Book
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55024
+53804
 Successfully changed project path to: C:/Raler/My-Own-Project/Unity-Shader-Book
 C:/Raler/My-Own-Project/Unity-Shader-Book
 Using Asset Import Pipeline V2.
-AS: AutoStreaming module initializing.Refreshing native plugins compatible for Editor in 47.42 ms, found 2 plugins.
+AS: AutoStreaming module initializing.Refreshing native plugins compatible for Editor in 48.13 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.26f1c1 (cf0e0a163043)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.26f1c1/Editor/Data/Resources/UnitySubsystems
@@ -36,37 +36,37 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1c1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1c1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56712
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56472
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.26f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001243 seconds.
+Registered in 0.001192 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 40.49 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 48.62 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.406 seconds
+- Completed reload, in  0.400 seconds
 Domain Reload Profiling:
-	ReloadAssembly (406ms)
-		BeginReloadAssembly (43ms)
+	ReloadAssembly (401ms)
+		BeginReloadAssembly (42ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (314ms)
-			LoadAssemblies (42ms)
+		EndReloadAssembly (312ms)
+			LoadAssemblies (41ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (98ms)
+			SetupTypeCache (90ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (17ms)
-			SetupLoadedEditorAssemblies (126ms)
+			SetupLoadedEditorAssemblies (136ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (41ms)
-				BeforeProcessingInitializeOnLoad (11ms)
-				ProcessInitializeOnLoadAttributes (50ms)
+				RefreshPlugins (49ms)
+				BeforeProcessingInitializeOnLoad (12ms)
+				ProcessInitializeOnLoadAttributes (53ms)
 				ProcessInitializeOnLoadMethodAttributes (20ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -74,35 +74,35 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.011273 seconds.
+Registered in 0.012528 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 43.52 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.777 seconds
+- Completed reload, in  0.830 seconds
 Domain Reload Profiling:
-	ReloadAssembly (778ms)
-		BeginReloadAssembly (96ms)
+	ReloadAssembly (832ms)
+		BeginReloadAssembly (95ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (12ms)
-		EndReloadAssembly (642ms)
-			LoadAssemblies (93ms)
+		EndReloadAssembly (696ms)
+			LoadAssemblies (101ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (210ms)
+			SetupTypeCache (224ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (239ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (267ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (2ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (44ms)
-				BeforeProcessingInitializeOnLoad (57ms)
-				ProcessInitializeOnLoadAttributes (126ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (145ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -112,14 +112,14 @@ Platform modules already initialized, skipping
 Worker process is ready to serve import requests
 Shader '浅墨Shader编程/5.简单的纹理载入Shader': fallback shader ' Diffuse ' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3049 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 166.9 MB.
-System memory in use after: 166.8 MB.
+System memory in use before: 166.7 MB.
+System memory in use after: 166.6 MB.
 
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3489.
-Total: 2.641700 ms (FindLiveObjects: 0.186200 ms CreateObjectMapping: 0.070400 ms MarkObjects: 2.195500 ms  DeleteObjects: 0.188800 ms)
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 3489.
+Total: 2.415700 ms (FindLiveObjects: 0.175300 ms CreateObjectMapping: 0.062800 ms MarkObjects: 1.982900 ms  DeleteObjects: 0.193900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -133,138 +133,121 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Game-Programing-Patterns/Game Programming Patterns/Object Pool Pattern/Example/Model/polygonSphere.asset
-  artifactKey: Guid(5472b184decf70e4a93de4bb61864ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game-Programing-Patterns/Game Programming Patterns/Object Pool Pattern/Example/Model/polygonSphere.asset using Guid(5472b184decf70e4a93de4bb61864ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82adda29f0a5e46f47dfcc07bd7130f1') in 0.199280 seconds 
-  Import took 0.203062 seconds .
+  path: Assets/Shader/MyShader/ScreenGradientSample
+  artifactKey: Guid(a48edbf5ed0803842bd4d254d38467c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MyShader/ScreenGradientSample using Guid(a48edbf5ed0803842bd4d254d38467c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aa1d53b73d05f3cc2facdc2be2d0441') in 0.004452 seconds 
+  Import took 0.007989 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/Game-Programing-Patterns/Game Programming Patterns/Object Pool Pattern/Example/Material/Plane.mat
-  artifactKey: Guid(7af618ba2ff2b9240bd56f1882c72dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game-Programing-Patterns/Game Programming Patterns/Object Pool Pattern/Example/Material/Plane.mat using Guid(7af618ba2ff2b9240bd56f1882c72dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ac3442121c64e771bd0ec19f0ff8dc9') in 0.048804 seconds 
-  Import took 0.052748 seconds .
+  Time since last request: 44.804675 seconds.
+  path: Assets/Shader/MyShader/ScreenGradientSample/ScreenGradientSampleShader.shader
+  artifactKey: Guid(1bab4c348b1b3994ab0be752d4fe43cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MyShader/ScreenGradientSample/ScreenGradientSampleShader.shader using Guid(1bab4c348b1b3994ab0be752d4fe43cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b3d5d3d6405d2a90a1207fe11d07e16') in 0.022413 seconds 
+  Import took 0.027394 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/Game-Programing-Patterns/Game Programming Patterns/Object Pool Pattern/Example/Material/PoolObject.mat
-  artifactKey: Guid(343887405a715a146b4d77e07fc21a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game-Programing-Patterns/Game Programming Patterns/Object Pool Pattern/Example/Material/PoolObject.mat using Guid(343887405a715a146b4d77e07fc21a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '136feefd7adab4a776d4bbf079884224') in 0.011843 seconds 
-  Import took 0.015706 seconds .
+  Time since last request: 32.704614 seconds.
+  path: Assets/Shader/MyShader/ScreenGradientSample/ScreenGradientSampleShader.shader
+  artifactKey: Guid(1bab4c348b1b3994ab0be752d4fe43cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MyShader/ScreenGradientSample/ScreenGradientSampleShader.shader using Guid(1bab4c348b1b3994ab0be752d4fe43cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0b5afe7cccd6ccd6ddd8e3e1fa4e176') in 0.004961 seconds 
+  Import took 0.010799 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/Game-Programing-Patterns/Game Programming Patterns/Object Pool Pattern/Example
-  artifactKey: Guid(6c238137d707e7a47b2f5fea9fde0785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game-Programing-Patterns/Game Programming Patterns/Object Pool Pattern/Example using Guid(6c238137d707e7a47b2f5fea9fde0785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7151a29f0260e44f0f6f70b6878dcb66') in 0.001760 seconds 
-  Import took 0.005241 seconds .
+  Time since last request: 14.734751 seconds.
+  path: Assets/Shader/MyShader/ScreenGradientSample/GradientMat.mat
+  artifactKey: Guid(73511e0c79a04eb449bf00e0221432ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MyShader/ScreenGradientSample/GradientMat.mat using Guid(73511e0c79a04eb449bf00e0221432ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9677518c0fd8dfb4b5b54f05e301ce7') in 0.077990 seconds 
+  Import took 0.081803 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/Game-Programing-Patterns/Game Programming Patterns/Object Pool Pattern/Example/Prefab/PolygonSphere.prefab
-  artifactKey: Guid(70b17a5417e2e0144a172856b782d2e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game-Programing-Patterns/Game Programming Patterns/Object Pool Pattern/Example/Prefab/PolygonSphere.prefab using Guid(70b17a5417e2e0144a172856b782d2e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a28ac34850770a6c7c464623e37a6031') in 0.017327 seconds 
-  Import took 0.021002 seconds .
+  Time since last request: 32.295060 seconds.
+  path: Assets/QianMo-Unity-Shader/Volume 16 基于MatCap实现高真实感车漆Shader/test.mat
+  artifactKey: Guid(b56d95ccdf909e04a8010f70f65bd1fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QianMo-Unity-Shader/Volume 16 基于MatCap实现高真实感车漆Shader/test.mat using Guid(b56d95ccdf909e04a8010f70f65bd1fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44c2bc995b322679110208b19f032173') in 0.020368 seconds 
+  Import took 0.025021 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/Game-Programing-Patterns/Game Programming Patterns/Object Pool Pattern/Example/objectPoolScreenShot.png
-  artifactKey: Guid(dc8bbdfe7a397f24797c0c82eaca2ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game-Programing-Patterns/Game Programming Patterns/Object Pool Pattern/Example/objectPoolScreenShot.png using Guid(dc8bbdfe7a397f24797c0c82eaca2ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bc25e875a20a7bdf027c2fb956dc71a') in 0.014963 seconds 
-  Import took 0.018583 seconds .
+  Time since last request: 510.091107 seconds.
+  path: Assets/Shader/MyShader/GeometryStudy
+  artifactKey: Guid(fc79ce2f29b25964694f407d3f1eff7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MyShader/GeometryStudy using Guid(fc79ce2f29b25964694f407d3f1eff7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '534779594837c671a669f81dba93c8d9') in 0.002677 seconds 
+  Import took 0.007886 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.307628 seconds.
-  path: Assets/Game-Programing-Patterns/Game Programming Patterns/Object Pool Pattern/Example/ObjectPoolExample.unity
-  artifactKey: Guid(20758ebff2f19114b9e504f370ae09b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game-Programing-Patterns/Game Programming Patterns/Object Pool Pattern/Example/ObjectPoolExample.unity using Guid(20758ebff2f19114b9e504f370ae09b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69fd53e170b81b483dcbdc084aeda9d3') in 0.002437 seconds 
-  Import took 0.006424 seconds .
+  Time since last request: 6.585441 seconds.
+  path: Assets/Shader/MyShader/GeometryShaderStudy
+  artifactKey: Guid(fc79ce2f29b25964694f407d3f1eff7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MyShader/GeometryShaderStudy using Guid(fc79ce2f29b25964694f407d3f1eff7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bce16b688e1811b5e51d03df63c1f08') in 0.002321 seconds 
+  Import took 0.006029 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 118.662669 seconds.
-  path: Assets/Game-Programing-Patterns/Game Programming Patterns/Object Pool Pattern/Example/Script/Example/ObjectPoolExample.cs
-  artifactKey: Guid(056320df615c8b143ada4e568756f3e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game-Programing-Patterns/Game Programming Patterns/Object Pool Pattern/Example/Script/Example/ObjectPoolExample.cs using Guid(056320df615c8b143ada4e568756f3e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5f6e95a079262c38752850c0dc4fdb8') in 0.003709 seconds 
-  Import took 0.007483 seconds .
+  Time since last request: 11.664629 seconds.
+  path: Assets/Shader/MyShader/GeometryShaderStudy/TestScene.unity
+  artifactKey: Guid(d075046331abf574494113e7a0228a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MyShader/GeometryShaderStudy/TestScene.unity using Guid(d075046331abf574494113e7a0228a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4b241943394d22fd89001dab4ed6bca') in 0.002966 seconds 
+  Import took 0.007027 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.586196 seconds.
-  path: Assets/Game-Programing-Patterns/Game Programming Patterns/Object Pool Pattern/Example/Script/Example/PoolObjectBehaviour.cs
-  artifactKey: Guid(bd943f996f94e754491919c9e1218c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game-Programing-Patterns/Game Programming Patterns/Object Pool Pattern/Example/Script/Example/PoolObjectBehaviour.cs using Guid(bd943f996f94e754491919c9e1218c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56e1f9e8882b9888d9775d5503c00f7f') in 0.002507 seconds 
-  Import took 0.007843 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.511608 seconds.
-  path: Assets/Game-Programing-Patterns/Game Programming Patterns/Object Pool Pattern/Example/Script/Core/PoolObject.cs
-  artifactKey: Guid(0b4144ee959c80a469435c9eed4f0a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game-Programing-Patterns/Game Programming Patterns/Object Pool Pattern/Example/Script/Core/PoolObject.cs using Guid(0b4144ee959c80a469435c9eed4f0a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce261efdc23958cce0675fd672de310f') in 0.002713 seconds 
-  Import took 0.007799 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.057751 seconds.
-  path: Assets/Game-Programing-Patterns/Game Programming Patterns/Object Pool Pattern/Example/Script/Core/PoolManager.cs
-  artifactKey: Guid(7923edcf213b37449a472421ad1dc23f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game-Programing-Patterns/Game Programming Patterns/Object Pool Pattern/Example/Script/Core/PoolManager.cs using Guid(7923edcf213b37449a472421ad1dc23f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ee99f41be4ff5a765f785a0a00d6b3c') in 0.002709 seconds 
-  Import took 0.006849 seconds .
+  Time since last request: 63.207330 seconds.
+  path: Assets/Shader/MyShader/GeometryShaderStudy/PointToBall.cs
+  artifactKey: Guid(81394d7cabbd4aa41a9189d70479da1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MyShader/GeometryShaderStudy/PointToBall.cs using Guid(81394d7cabbd4aa41a9189d70479da1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '036eba985b5a28b107b898821ef61c50') in 0.007566 seconds 
+  Import took 0.012726 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.011265 seconds.
+Registered in 0.010443 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.708 seconds
+- Completed reload, in  0.717 seconds
 Domain Reload Profiling:
-	ReloadAssembly (709ms)
+	ReloadAssembly (717ms)
 		BeginReloadAssembly (93ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (2ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (569ms)
-			LoadAssemblies (96ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (584ms)
+			LoadAssemblies (99ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (201ms)
+			SetupTypeCache (204ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (24ms)
 			SetupLoadedEditorAssemblies (199ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (57ms)
-				ProcessInitializeOnLoadAttributes (128ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (126ms)
 				ProcessInitializeOnLoadMethodAttributes (6ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
-Switching render pipeline 00000000000000000000000000000000 -> d91c1cc65e9d0934fb26095cc9c38125
 Shader '浅墨Shader编程/5.简单的纹理载入Shader': fallback shader ' Diffuse ' not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2894 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 154.7 MB.
-System memory in use after: 154.7 MB.
+Unloading 2849 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 150.0 MB.
+System memory in use after: 149.9 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3584.
-Total: 3.085900 ms (FindLiveObjects: 0.276500 ms CreateObjectMapping: 0.089400 ms MarkObjects: 2.473800 ms  DeleteObjects: 0.244500 ms)
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3532.
+Total: 2.405000 ms (FindLiveObjects: 0.158700 ms CreateObjectMapping: 0.063800 ms MarkObjects: 1.999300 ms  DeleteObjects: 0.182500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -277,110 +260,327 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011092 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.757 seconds
-Domain Reload Profiling:
-	ReloadAssembly (757ms)
-		BeginReloadAssembly (101ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (612ms)
-			LoadAssemblies (108ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (205ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (208ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (60ms)
-				ProcessInitializeOnLoadAttributes (135ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Switching render pipeline 00000000000000000000000000000000 -> d91c1cc65e9d0934fb26095cc9c38125
-Shader '浅墨Shader编程/5.简单的纹理载入Shader': fallback shader ' Diffuse ' not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2846 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 153.2 MB.
-System memory in use after: 153.2 MB.
+Received Import Request.
+  Time since last request: 494.303951 seconds.
+  path: Assets/Shader/MyShader/GeometryShaderStudy/PointToBall.cs
+  artifactKey: Guid(81394d7cabbd4aa41a9189d70479da1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MyShader/GeometryShaderStudy/PointToBall.cs using Guid(81394d7cabbd4aa41a9189d70479da1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bee17d2c0bc47846f7fd41df935c41d') in 0.007591 seconds 
+  Import took 0.012589 seconds .
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3586.
-Total: 2.425800 ms (FindLiveObjects: 0.162900 ms CreateObjectMapping: 0.062700 ms MarkObjects: 2.025300 ms  DeleteObjects: 0.174100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.011113 seconds.
+Registered in 0.010578 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.715 seconds
+- Completed reload, in  0.689 seconds
 Domain Reload Profiling:
-	ReloadAssembly (715ms)
-		BeginReloadAssembly (81ms)
+	ReloadAssembly (689ms)
+		BeginReloadAssembly (92ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (23ms)
-		EndReloadAssembly (595ms)
-			LoadAssemblies (93ms)
+		EndReloadAssembly (559ms)
+			LoadAssemblies (94ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (196ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (24ms)
-			SetupLoadedEditorAssemblies (207ms)
+			SetupLoadedEditorAssemblies (196ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (2ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
 				BeforeProcessingInitializeOnLoad (57ms)
-				ProcessInitializeOnLoadAttributes (135ms)
+				ProcessInitializeOnLoadAttributes (125ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Shader '浅墨Shader编程/5.简单的纹理载入Shader': fallback shader ' Diffuse ' not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2849 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 150.0 MB.
+System memory in use after: 150.0 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3534.
+Total: 2.448200 ms (FindLiveObjects: 0.149500 ms CreateObjectMapping: 0.059200 ms MarkObjects: 2.034500 ms  DeleteObjects: 0.204200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 22.150695 seconds.
+  path: Assets/Shader/MyShader/GeometryShaderStudy/PointToBallShader.shader
+  artifactKey: Guid(bd3cf8a7c120c3b44a7fb0db83ad6f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MyShader/GeometryShaderStudy/PointToBallShader.shader using Guid(bd3cf8a7c120c3b44a7fb0db83ad6f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53b01dea58f422b76b510c70cda539db') in 0.056559 seconds 
+  Import took 0.061983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 428.947066 seconds.
+  path: Assets/Shader/MyShader/GeometryShaderStudy/PointToBallShader.shader
+  artifactKey: Guid(bd3cf8a7c120c3b44a7fb0db83ad6f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MyShader/GeometryShaderStudy/PointToBallShader.shader using Guid(bd3cf8a7c120c3b44a7fb0db83ad6f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15394b3e798bce24653621b187ca1a44') in 0.004103 seconds 
+  Import took 0.010356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.395713 seconds.
+  path: Assets/Shader/MyShader/GeometryShaderStudy/PointToBallShader.shader
+  artifactKey: Guid(bd3cf8a7c120c3b44a7fb0db83ad6f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MyShader/GeometryShaderStudy/PointToBallShader.shader using Guid(bd3cf8a7c120c3b44a7fb0db83ad6f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3591d5e7e7a719a54f22b3eaf5589489') in 0.005020 seconds 
+  Import took 0.010750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.846616 seconds.
+  path: Assets/Shader/MyShader/GeometryShaderStudy/PointToBallShader.shader
+  artifactKey: Guid(bd3cf8a7c120c3b44a7fb0db83ad6f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MyShader/GeometryShaderStudy/PointToBallShader.shader using Guid(bd3cf8a7c120c3b44a7fb0db83ad6f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b39572584f51a835005fd745f4222764') in 0.004144 seconds 
+  Import took 0.009082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.969922 seconds.
+  path: Assets/Shader/MyShader/GeometryShaderStudy/TestGeomMat.mat
+  artifactKey: Guid(af577d283c7e0f14094971d3b4e2093e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MyShader/GeometryShaderStudy/TestGeomMat.mat using Guid(af577d283c7e0f14094971d3b4e2093e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c24a883834da912152e2046ce7bed742') in 0.041558 seconds 
+  Import took 0.045514 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011360 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.940 seconds
+Domain Reload Profiling:
+	ReloadAssembly (941ms)
+		BeginReloadAssembly (116ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (773ms)
+			LoadAssemblies (138ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (320ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (224ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (134ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Shader '浅墨Shader编程/5.简单的纹理载入Shader': fallback shader ' Diffuse ' not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2850 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 150.2 MB.
+System memory in use after: 150.1 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3537.
+Total: 2.555000 ms (FindLiveObjects: 0.167500 ms CreateObjectMapping: 0.061000 ms MarkObjects: 2.107900 ms  DeleteObjects: 0.217400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010826 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.693 seconds
+Domain Reload Profiling:
+	ReloadAssembly (693ms)
+		BeginReloadAssembly (91ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (563ms)
+			LoadAssemblies (96ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (192ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (206ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (134ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Shader '浅墨Shader编程/5.简单的纹理载入Shader': fallback shader ' Diffuse ' not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2850 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 150.2 MB.
+System memory in use after: 150.1 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3539.
+Total: 2.777800 ms (FindLiveObjects: 0.197900 ms CreateObjectMapping: 0.070600 ms MarkObjects: 2.258900 ms  DeleteObjects: 0.248900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011617 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.683 seconds
+Domain Reload Profiling:
+	ReloadAssembly (683ms)
+		BeginReloadAssembly (90ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (555ms)
+			LoadAssemblies (94ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (189ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (198ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (127ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Shader '浅墨Shader编程/5.简单的纹理载入Shader': fallback shader ' Diffuse ' not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2850 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 150.2 MB.
+System memory in use after: 150.1 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3541.
+Total: 3.344500 ms (FindLiveObjects: 0.197600 ms CreateObjectMapping: 0.071500 ms MarkObjects: 2.719300 ms  DeleteObjects: 0.354500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013303 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.961 seconds
+Domain Reload Profiling:
+	ReloadAssembly (961ms)
+		BeginReloadAssembly (122ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (780ms)
+			LoadAssemblies (146ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (304ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (224ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (145ms)
 				ProcessInitializeOnLoadMethodAttributes (7ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
-Switching render pipeline 00000000000000000000000000000000 -> d91c1cc65e9d0934fb26095cc9c38125
 Shader '浅墨Shader编程/5.简单的纹理载入Shader': fallback shader ' Diffuse ' not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2846 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 153.3 MB.
-System memory in use after: 153.3 MB.
+Unloading 2850 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 150.2 MB.
+System memory in use after: 150.1 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3588.
-Total: 2.415300 ms (FindLiveObjects: 0.190500 ms CreateObjectMapping: 0.057600 ms MarkObjects: 1.974900 ms  DeleteObjects: 0.191500 ms)
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3543.
+Total: 2.599300 ms (FindLiveObjects: 0.173700 ms CreateObjectMapping: 0.070300 ms MarkObjects: 2.099800 ms  DeleteObjects: 0.254500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 

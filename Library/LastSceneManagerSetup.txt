@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Game-Programing-Patterns/Game Programming Patterns/Object Pool Pattern/Example/ObjectPoolExample.unity
+- path: Assets/Shader/MyShader/GeometryShaderStudy/TestScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
