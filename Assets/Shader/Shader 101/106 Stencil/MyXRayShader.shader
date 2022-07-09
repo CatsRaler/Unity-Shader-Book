@@ -163,5 +163,5 @@ Shader "Shader101/MyXRayShader"
 	}
 
 	//阴影懒得写了......直接FallBack
-	Fallback "Legacy Shaders/VertexLit"
+	Fallback "Standard"
 }

@@ -41,22 +41,22 @@ Shader "OtherShader/ScannerShader"
                 float4 interpolatedRay : TEXCOORD2;
             };
 
-            //float4 _MainTex_TexelSize;
+            float4 _MainTex_TexelSize;
             float4 _CameraWS;
 
             v2f vert (appdata v)
             {
                 v2f o;
                 o.vertex = UnityObjectToClipPos(v.vertex);
-                //o.uv = TRANSFORM_TEX(v.uv, _MainTex);
+                o.uv = TRANSFORM_TEX(v.uv, _MainTex);
                 o.uv = v.uv.xy;
                 o.uv_depth = v.uv.xy;
 
                 //注意平台适配,如果跟dx一样从上开始的话就要把后处理的uv上下颠倒一下，即1minus
-                //#if UNITY_UV_STARTS_AT_TOP
-                //if (_MainTex_TexelSize.y < 0)
-                //    o.uv.y = 1 - o.uv.y;
-                //#endif				    
+                #if UNITY_UV_STARTS_AT_TOP
+                if (_MainTex_TexelSize.y < 0)
+                    o.uv.y = 1 - o.uv.y;
+                #endif				    
 
                 o.interpolatedRay = v.ray;
                 return o;
@@ -79,7 +79,7 @@ Shader "OtherShader/ScannerShader"
             //用一个函数写横向纹理
             float4 horizBars(float2 p)
             {
-                return 1 - saturate(round(abs(frac(p.y * 100) * 2)));
+                return 1 - saturate(round(abs(frac(p.y * 10) * 2)));
             }
             //用一个函数写横纵向纹理
             float4 horizTex(float2 p)

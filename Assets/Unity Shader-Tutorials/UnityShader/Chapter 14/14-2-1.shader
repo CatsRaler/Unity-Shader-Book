@@ -121,5 +121,5 @@ Shader "Shader Study/Chapter 14/14-2-1"
 			ENDCG
 		}
 	}
-	FallBack "Diffuse"
+	//FallBack "Diffuse"
 }

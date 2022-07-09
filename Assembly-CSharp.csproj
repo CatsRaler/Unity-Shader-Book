@@ -80,6 +80,8 @@
     <Compile Include="Assets\Shader\Shader 101\104 EasyPost\Post.cs" />
     <Compile Include="Assets\Game-Programing-Patterns\Game Programming Patterns\SubclassSandbox Pattern\Example\GroundDive.cs" />
     <Compile Include="Assets\Game-Programing-Patterns\Behavioral Patterns\Command Pattern\Example4\CommandPatternExample4.cs" />
+    <Compile Include="Assets\QianMo-Unity-Shader\Volume 08 径向模糊屏幕特效Shader&amp;自定义Shader template\MotionBlurEffects\MotionBlurEffects.cs" />
+    <Compile Include="Assets\QianMo-Unity-Shader\Volume 11 屏幕像素化特效Shader\PixelEffect\PixelEffect.cs" />
     <Compile Include="Assets\Game-Programing-Patterns\Creational Patterns\Factory Method Pattern\Example2\FactoryMethodPatternExample2.cs" />
     <Compile Include="Assets\Unity Shader-Tutorials\Scripts\Chapter 12\Bloom.cs" />
     <Compile Include="Assets\Game-Programing-Patterns\Structural Patterns\Facade Pattern\Structure\FacadeStructure.cs" />
@@ -103,6 +105,7 @@
     <Compile Include="Assets\Game-Programing-Patterns\Behavioral Patterns\State Pattern\Structure\StateStructure.cs" />
     <Compile Include="Assets\Game-Programing-Patterns\Behavioral Patterns\Command Pattern\Example3\MoveCommand.cs" />
     <Compile Include="Assets\Game-Programing-Patterns\Game Programming Patterns\SubclassSandbox Pattern\Example\SuperPower.cs" />
+    <Compile Include="Assets\QianMo-Unity-Shader\Volume 10 屏幕油画特效Shader\ScreenOilPaintEffect\ScreenOilPaintEffect.cs" />
     <Compile Include="Assets\Unity Shader-Tutorials\Scripts\Chapter 12\BrightnessSaturationAndContrast.cs" />
     <Compile Include="Assets\Game-Programing-Patterns\Structural Patterns\Composite Pattern\Exmaple1\CompositePatternExample1.cs" />
     <Compile Include="Assets\Game-Programing-Patterns\Game Programming Patterns\SubclassSandbox Pattern\Example\SkyLaunch.cs" />
@@ -155,6 +158,7 @@
     <Compile Include="Assets\Game-Programing-Patterns\Game Programming Patterns\SubclassSandbox Pattern\Example\TestSubclassSandbox.cs" />
     <Compile Include="Assets\Game-Programing-Patterns\Behavioral Patterns\Command Pattern\Example2\Radio.cs" />
     <Compile Include="Assets\Game-Programing-Patterns\Behavioral Patterns\State Pattern\Exmaple3\NoCash.cs" />
+    <Compile Include="Assets\QianMo-Unity-Shader\Volume 09 屏幕水幕特效Shader&amp;Standard Shader\ScreenWaterDropEffect\ScreenWaterDropEffect.cs" />
     <Compile Include="Assets\Game-Programing-Patterns\Structural Patterns\Facade Pattern\Exmaple2\FacadePatternExample2.cs" />
     <Compile Include="Assets\Game-Programing-Patterns\Behavioral Patterns\Command Pattern\Example2\TestCommandPattern.cs" />
     <Compile Include="Assets\Game-Programing-Patterns\Behavioral Patterns\Mediator Pattern\Structure\MediatorStructure.cs" />
@@ -180,6 +184,7 @@
     <Compile Include="Assets\Game-Programing-Patterns\Behavioral Patterns\Interpreter Pattern\Example2\InterpreterExample2.cs" />
     <Compile Include="Assets\Game-Programing-Patterns\Game Programming Patterns\Game Loop Pattern\Example\GameLoopPatternExample.cs" />
     <Compile Include="Assets\Game-Programing-Patterns\Behavioral Patterns\Mediator Pattern\Example1\MediatorExample1.cs" />
+    <Compile Include="Assets\QianMo-Unity-Shader\Volume 15 屏幕高斯模糊(Gaussian Blur)特效的实现\RapidBlurEffect.cs" />
     <Compile Include="Assets\Game-Programing-Patterns\Behavioral Patterns\Command Pattern\Example2\TurnTVOn.cs" />
     <Compile Include="Assets\Game-Programing-Patterns\Structural Patterns\Flyweight Pattern\Exmaple1\FlyweightPatternExample1.cs" />
     <Compile Include="Assets\Game-Programing-Patterns\Game Programming Patterns\Event Queue Pattern\Example\EventQueue.cs" />
@@ -194,11 +199,7 @@
     <Compile Include="Assets\Game-Programing-Patterns\Behavioral Patterns\State Pattern\Exmaple3\NoCard.cs" />
     <Compile Include="Assets\Game-Programing-Patterns\Behavioral Patterns\State Pattern\Exmaple5\StatePatternExample5.cs" />
     <Compile Include="Assets\Game-Programing-Patterns\Behavioral Patterns\Command Pattern\Example2\TurnVolumeDown.cs" />
-    <Compile Include="Assets\QianMo-Unity-Shader\Volume 08 径向模糊屏幕特效Shader&amp;自定义Shader template\MotionBlurEffects\MotionBlurEffects.cs" />
-    <Compile Include="Assets\QianMo-Unity-Shader\Volume 10 屏幕油画特效Shader\ScreenOilPaintEffect\ScreenOilPaintEffect.cs" />
-    <Compile Include="Assets\QianMo-Unity-Shader\Volume 09 屏幕水幕特效Shader&amp;Standard Shader\ScreenWaterDropEffect\ScreenWaterDropEffect.cs" />
-    <Compile Include="Assets\QianMo-Unity-Shader\Volume 11 屏幕像素化特效Shader\PixelEffect\PixelEffect.cs" />
-    <Compile Include="Assets\QianMo-Unity-Shader\Volume 15 屏幕高斯模糊(Gaussian Blur)特效的实现\RapidBlurEffect.cs" />
+    <Compile Include="Assets\Shader\MyShader\GeometryShaderStudy\PointToBall.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Unity Shader-Tutorials\UnityShader\Chapter 8\8-4-1.shader" />
@@ -317,6 +318,7 @@
     <None Include="Assets\Unity Shader-Tutorials\UnityShader\Chapter 9\9-4-3.shader" />
     <None Include="Assets\Unity Shader-Tutorials\UnityShader\Chapter 5\5-2.shader" />
     <None Include="Assets\Unity Shader-Tutorials\UnityShader\Chapter 9\9-4-2.shader" />
+    <None Include="Assets\Shader\MyShader\ScreenGradientSample\ScreenGradientSampleShader.shader" />
     <None Include="Assets\QianMo-Unity-Shader\Volume 10 屏幕油画特效Shader\ScreenOilPaintEffect\ScreenOilPaintEffect.shader" />
     <None Include="Assets\QianMo-Unity-Shader\Volume 07 表面着色器的写法(二)-自定义光照模式\0.漫反射.shader" />
     <None Include="Assets\Unity Shader-Tutorials\UnityShader\Chapter 7\7-2-2.shader" />
@@ -336,6 +338,7 @@
     <None Include="Assets\QianMo-Unity-Shader\Volume 07 表面着色器的写法(二)-自定义光照模式\3.自制半Lambert光照.shader" />
     <None Include="Assets\Shader\MyShader\ScanEffect\PointWave.shader" />
     <None Include="Assets\QianMo-Unity-Shader\Volume 02 Unity基本Shader框架写法\1.基础单色Shader.shader" />
+    <None Include="Assets\Shader\MyShader\GeometryShaderStudy\PointToBallShader.shader" />
     <None Include="Assets\QianMo-Unity-Shader\Volume 14 边缘发光Shader(Rim Shader)的两种实现形态\BasicRimShader.shader" />
     <None Include="Assets\Unity Shader-Tutorials\UnityShader\Chapter 17\17-1-1.shader" />
     <None Include="Assets\QianMo-Unity-Shader\Volume 04 剔除、深度测试、Alpha测试以及基本雾效合辑\5.顶点光照+可调透明度.shader" />
